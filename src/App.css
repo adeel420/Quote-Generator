@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#c879e9, #ed456c);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
+    font-size: 42px;
+}
+.container{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    width: 450px;
+}
+.container h5{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.container h5 span{
+    font-weight: bolder;
+}
+.container h4{
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.container p{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 15px;
+    right: 30px;
+}
+.buttons{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.container .new{
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    display: flex;
+    gap: 0px 8px;
+    border-radius: 5px;
+    font-weight: lighter;
+    align-items: center;
+}
+.container .new:hover{
+    background-color: black;
+}
+.container .copy{
+    background-color: transparent;
+    border: 1px solid grey;
+    display: flex;
+    gap: 0px 8px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    align-items: center;
+}
+.container .copy:hover{
+    background-color: #f7f5f5;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 280px;
+        font-size: 100px;
+    }
+    .container{
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px !important;
+        border-radius: 10px;
+        width: 1050px;
+    }
+    .container h5{
+        font-size: 42px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+    .container h5 span{
+        font-weight: bolder;
+    }
+    .container h4{
+        font-size: 42px;
+        margin-top: 45px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .container p{
+        position: absolute;
+        font-size: 32px;
+        margin-top: 42px;
+        right: 50px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 160px;
+        justify-content: space-around;
+    }
+    .container .new{
+        background-color: #212529;
+        color: white;
+        font-size: 36px;
+        cursor: pointer;
+        padding: 20px;
+        border: none;
+        display: flex;
+        gap: 0px 15px;
+        border-radius: 10px;
+        font-weight: lighter;
+    }
+    .container .copy{
+        background-color: transparent;
+        border: 1px solid grey;
+        display: flex;
+        gap: 0px 15px;
+        padding: 20px;
+        font-size: 36px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 80px;
+        font-size: 42px;
+    }
+    .container{
+        background-color: #fff;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 5px;
+        width: 450px;
+    }
+    .container h5{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+    .container h5 span{
+        font-weight: bolder;
+    }
+    .container h4{
+        font-size: 18px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .container p{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 15px;
+        right: 30px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-around;
+    }
+    .container .new{
+        background-color: #212529;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        display: flex;
+        gap: 0px 8px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+    .container .copy{
+        background-color: transparent;
+        border: 1px solid grey;
+        display: flex;
+        gap: 0px 8px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 80px;
+        font-size: 42px;
+    }
+    .container{
+        background-color: #fff;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 5px;
+        width: 300px;
+    }
+    .container h5{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+    .container h5 span{
+        font-weight: bolder;
+    }
+    .container h4{
+        font-size: 18px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .container p{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 15px;
+        right: 30px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-around;
+    }
+    .container .new{
+        background-color: #212529;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        display: flex;
+        gap: 0px 8px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+    .container .copy{
+        background-color: transparent;
+        border: 1px solid grey;
+        display: flex;
+        gap: 0px 8px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    h1{
+        text-align: center;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 80px;
+        font-size: 32px;
+    }
+    .container{
+        background-color: #fff;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        margin-top: 40px;
+        border-radius: 5px;
+        width: 250px;
+    }
+    .container h5{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+    .container h5 span{
+        font-weight: bolder;
+    }
+    .container h4{
+        font-size: 18px;
+        margin-top: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    }
+    .container p{
+        position: absolute;
+        font-size: 16px;
+        margin-top: 15px;
+        right: 30px;
+    }
+    .buttons{
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-around;
+    }
+    .container .new{
+        background-color: #212529;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px;
+        border: none;
+        display: flex;
+        gap: 0px 8px;
+        border-radius: 5px;
+        font-weight: lighter;
+    }
+    .container .copy{
+        background-color: transparent;
+        border: 1px solid grey;
+        display: flex;
+        gap: 0px 8px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
